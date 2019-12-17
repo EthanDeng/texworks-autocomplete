@@ -1,4 +1,4 @@
-\documentclass[geye,green,pad,cn]{elegantnote}
+\documentclass[blue,cn,normal,11pt]{elegantnote}
 \title{\TeX{}works 自动补全功能分类解析\footnote{本文最新版本地址：\href{https://github.com/EthanDeng/texworks-autocomplete}{Github:TeXworks-Autocomplete}。}}
 \author{Dongsheng Deng}
 \institute{Elegant\LaTeX{} 项目组}
@@ -7,7 +7,7 @@
 
 \begin{document}
 \maketitle
-\centerline{\includegraphics[width=0.25\textwidth]{logo.png}}
+%\centerline{\includegraphics[width=0.25\textwidth]{logo-blue.png}}
 
 
 
@@ -140,11 +140,11 @@
     \toprule
     快捷键& 对应命令 & 快捷键 & 对应命令 \\
     \midrule
-    cha     & \lstinline|\chapter{}| & bbib    & \lstinline|\begin{thebibliography}| \\
-    sec(o) 	& \lstinline|\section{}|    & bibitem    & \lstinline|\bibitem| \\
-    ssec(o) & \lstinline|\subsection{}| & bibitemo   & \lstinline|\bibitem[]| \\
-    sssec(o)& \lstinline|\subsubsection{}| & bibstyle  & \lstinline|\bibliographystyle{}| \\
-          &       & biblio     & \lstinline|\bibliography{}| \\
+    cha     & \lstinline|\chapter{}| & bbib    & \lstinline|\begin{thebibliography}| \\
+    sec(o) 	& \lstinline|\section{}|    & bibitem    & \lstinline|\bibitem| \\
+    ssec(o) & \lstinline|\subsection{}| & bibitemo   & \lstinline|\bibitem[]| \\
+    sssec(o)& \lstinline|\subsubsection{}| & bibstyle  & \lstinline|\bibliographystyle{}| \\
+          &       & biblio     & \lstinline|\bibliography{}| \\
     \bottomrule
     \end{tabular}%
   \label{tab:structural}%
@@ -174,15 +174,15 @@ dxa = \lstinline{\(\alpha\)}
     \toprule
     快捷键 & 对应命令  & 快捷键 & 对应命令 \\
     \midrule
-    usep    & \lstinline|\usepackage{}| & newe   & \lstinline|\newenvironment{}{•}{•}| \\
-    foot     & \lstinline|\footnote| & newpg  & \lstinline|\newpage| \\
-    frac     & \lstinline|\frac| & pgref   & \lstinline|\pageref{}| \\
-    fbox    & \lstinline|\fbox| & pgs    & \lstinline|\pagestyle{}| \\
-    fboxo   & \lstinline|\framebox| & sqrt    & \lstinline|\sqrt{}| \\
-    href    & \lstinline|\href| & toc    & \lstinline|\tableofcontents| \\
-    incg    & \lstinline|\includegraphics{}| & listf    & \lstinline|\listoffigures| \\
-    incgo   & \lstinline|\includegraphics[]{•}| & list    & \lstinline|\listoftables| \\
-    newc   & \lstinline|\newcommand{}{•}| & multic  & \lstinline|\multicolumn{}{•}{•}| \\
+    usep    & \lstinline|\usepackage{}| & newe   & \lstinline|\newenvironment{}{•}{•}| \\
+    foot     & \lstinline|\footnote| & newpg  & \lstinline|\newpage| \\
+    frac     & \lstinline|\frac| & pgref   & \lstinline|\pageref{}| \\
+    fbox    & \lstinline|\fbox| & pgs    & \lstinline|\pagestyle{}| \\
+    fboxo   & \lstinline|\framebox| & sqrt    & \lstinline|\sqrt{}| \\
+    href    & \lstinline|\href| & toc    & \lstinline|\tableofcontents| \\
+    incg    & \lstinline|\includegraphics{}| & listf    & \lstinline|\listoffigures| \\
+    incgo   & \lstinline|\includegraphics[]{•}| & list    & \lstinline|\listoftables| \\
+    newc   & \lstinline|\newcommand{}{•}| & multic  & \lstinline|\multicolumn{}{•}{•}| \\
     \bottomrule
     \end{tabular}%
   \label{tab:normal command}%
